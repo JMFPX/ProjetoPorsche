@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(179, 8, 8);
+}
+.Cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Cabecalho ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+.Cabecalho li{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+}
+.Cabecalho li:hover{
+    color: white;
+    transition: 0.7s;
+}
+.Cabecalho a{
+    text-decoration: none;
+}
+
+.imagem{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+}
+#logado{
+    display: flex;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+#logado:hover{
+    color: white;
+}
+.butaosaida{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+   
+}
+.imgbotao{
+    display: flex;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+/* Cabeçalho */
+
+/* Cards */
+.Cardsback{
+    background-image: url(../imgs/jannis-lucas-23HJl7I2g-U-unsplash.webp);
+    background-position: center;
+    background-size: cover;
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card{
+    cursor: pointer;
+}
+
+.cards1{
+    perspective: 900px;
+    align-items: center;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .container__column {
+                        /* Content is centered vertically */
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        /* Make all columns have the same width */
+                        flex: 1;
+
+                        /* OPTIONAL: Space between columns */
+                        margin: 0 8px;
+
+                        /* OPTIONAL: Border */
+                        border: 1px solid rgba(0, 0, 0, 0.3);
+                        border-radius: 4px;
+                    
+}
+
+.cards2{
+    perspective: 900px;
+    align-items: center;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .container__column {
+                        /* Content is centered vertically */
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        /* Make all columns have the same width */
+                        flex: 1;
+
+                        /* OPTIONAL: Space between columns */
+                        margin: 0 8px;
+
+                        /* OPTIONAL: Border */
+                        border: 1px solid rgba(0, 0, 0, 0.3);
+                        border-radius: 4px;
+                    
+}
+
+.card1{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/kahl-orr-MPdl02hySb0-unsplash.webp);
+    background-size: cover;
+    background-position: 26%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card1:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card1-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card1:hover .card1-title{
+    transform: translateZ(25px);
+}
+
+.card2{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/dima-panyukov-huKAyqLxBX0-unsplash.webp);
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card2:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card2-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card2:hover .card2-title{
+    transform: translateZ(25px);
+}
+
+.card3{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/adrien-vajas-Apa13LFPClU-unsplash.webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card3:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card3-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card3:hover .card3-title{
+    transform: translateZ(25px);
+}
+
+.card4{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/velito-S0E4C8IUFr4-unsplash.webp);
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card4:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card4-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card4:hover .card4-title{
+    transform: translateZ(25px);
+}
+
+.card5{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/campbell-3ZUsNJhi_Ik-unsplash.webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card5:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card5-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card5:hover .card5-title{
+    transform: translateZ(25px);
+}
+
+.card6{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/josh-berquist-pjxe3p4u5aI-unsplash.webp);
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card6:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card6-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card6:hover .card6-title{
+    transform: translateZ(25px);
+}
+
+.cards3{
+    perspective: 900px;
+    align-items: center;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .container__column {
+                        /* Content is centered vertically */
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        /* Make all columns have the same width */
+                        flex: 1;
+
+                        /* OPTIONAL: Space between columns */
+                        margin: 0 8px;
+
+                        /* OPTIONAL: Border */
+                        border: 1px solid rgba(0, 0, 0, 0.3);
+                        border-radius: 4px;
+                    
+}
+
+
+
+.card7{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/kahl-orr-MPdl02hySb0-unsplash.webp);
+    background-size: cover;
+    background-position: 26%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card7:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card7-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card7:hover .card7-title{
+    transform: translateZ(25px);
+}
+
+.card8{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/josh-berquist-PljkQ_KSbMc-unsplash.webp);
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card8:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card8-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card8:hover .card8-title{
+    transform: translateZ(25px);
+}
+
+.card9{
+    height: 350px;
+    width: 300px;
+    background: url(../imgs/kahl-orr-MPdl02hySb0-unsplash.webp);
+    background-size: cover;
+    background-position: 26%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    margin: 50px;
+    
+}
+
+.card9:hover{
+    transform: translateZ(0px) rotateX(0deg) rotateY(5deg);
+}
+
+.card9-title{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+}
+
+.card9:hover .card9-title{
+    transform: translateZ(25px);
+}
+
+
+/* Cards */

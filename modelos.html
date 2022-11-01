@@ -1,0 +1,115 @@
+<script>
+    if(localStorage.getItem('token')== null) {
+
+alert('Para acessar a página, será preciso logar primeiro!')
+
+window.location.href = "tela-de-login1.html"
+}
+
+</script>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/modelos.css">
+    <link rel="icon" href="../imgs/logopagina-removebg-preview.png">
+    <title>Porsche</title>
+</head>
+<body>
+   
+    <header>
+
+        <div>
+            <img class="imagem" src="../imgs/logo-removebg-preview.webp">
+        </div> 
+
+        <nav class="Cabecalho">
+    
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>dfgsfh</li></a>
+                <a href="../html/modelos.html"><li>Modelos</li></a>
+                <a href="#"  ><li>hdshsfh</li></a>
+                
+                
+                
+           
+                
+          
+            </ul>  
+        
+        
+         
+            
+        
+        </nav>
+        
+      
+        <div class="coluna">
+               
+        <h1 id="logado"></h1>
+        <button onclick= "sair()" class="butaosaida"><img class="imgbotao" onclick= "sair()" src="../imgs/digitar-removebg-preview.png"></button>
+       
+    </div>
+        
+
+    </header>
+  
+  
+  
+  
+  
+    <main class="Cardsback">
+        <section class="cards1">
+            <figure class="card1">
+                <figcaption class="card1-title">Porsche 911</figcaption>
+            </figure>
+    
+            <figure class="card2">
+                <figcaption class="card2-title">Porsche Você tem bola?</figcaption>
+            </figure>
+    
+            <figure class="card3">
+                <figcaption class="card3-title">Porsche do Gera</figcaption>
+            </figure>
+        </section>
+    
+        <section class="cards2">
+            <figure class="card4">
+                <figcaption class="card4-title">Porsche Nicole</figcaption>
+            </figure>
+    
+            <figure class="card5">
+                <figcaption class="card5-title">Porsche Vinicius</figcaption>
+            </figure>
+    
+            <figure class="card6">
+                <figcaption class="card6-title">Porsche João</figcaption>
+            </figure>
+        </section>
+    
+
+        <section class="cards3">
+            <figure class="card7">
+                <figcaption class="card4-title">Porsche Davi.M</figcaption>
+            </figure>
+    
+            <figure class="card8">
+                <figcaption class="card5-title">Porsche</figcaption>
+            </figure>
+    
+            <figure class="card9">
+                <figcaption class="card6-title">Porsche</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <script src="../Javascript/modelo.js"></script>
+
+</body>
+</html>
